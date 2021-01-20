@@ -1,0 +1,25 @@
+.authBase__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.authBase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.authBase__content {
+  width: 350px;
+  max-height: 500px;
+}
+
+.auth__form {
+  margin-top: 15px;
+}
+
+.bg-logoColor {
+  background-color: #8c52ff !important;
+  color: white !important;
+}

@@ -1,0 +1,16 @@
+.footer {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+.footer__social img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 7px;
+}

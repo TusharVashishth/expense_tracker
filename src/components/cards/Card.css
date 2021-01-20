@@ -1,0 +1,34 @@
+.customCard {
+  border-radius: 15px;
+  min-height: 200px;
+  color: white;
+  margin: 10px;
+  -webkit-box-shadow: 6px 6px 18px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 6px 6px 18px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 6px 6px 18px 0px rgba(50, 50, 50, 0.75);
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: all 500ms;
+  transition-delay: 500ms;
+  cursor: pointer;
+}
+
+.expenseCard {
+  border-radius: 20px;
+  background: #3f3f3f;
+  margin: 5px;
+  margin-bottom: 15px;
+  height: 150px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.expenseCard__img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
